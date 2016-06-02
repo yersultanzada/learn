@@ -1,0 +1,513 @@
+/*
+********** Главная**************
+*/
+.gap-5{
+    padding-top: 5px;
+}
+.gap-10{
+    padding-top: 10px;
+}
+.gap-20{
+    padding-top: 20px;
+}
+.card-panel{
+    margin-top: 0;
+}
+header{
+    z-index: 2;
+    position: relative;
+}
+.left-tab{
+    display: flex;
+    position: relative;
+    margin:0;
+}
+.left-tab>.tab{
+    display: block;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.left-tab>.tab>a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.left-tab>.tab.active{
+    background-color: #fff;
+}
+.number-center{
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+.number-center>.cen{
+    display: block;
+    margin:0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    color: #a6abd2;
+}
+.right-tab{
+    display: flex;
+    position: relative;
+    margin: 0;
+    float: right;
+}
+.right-tab>.tab{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 48px;
+    text-align: center;
+}
+.right-tab>.tab>a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.right-tab>.tab.active{
+    background-color: #303f9f;
+}
+
+#block2{
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(194,194,194,1);
+    -moz-box-shadow: 0px 2px 2px 0px rgba(194,194,194,1);
+    box-shadow: 0px 2px 2px 0px rgba(194,194,194,1);
+}
+.no-mar-bottom{
+    margin-bottom:0;
+}
+nav.main-navbar {
+    height: auto;
+    min-height: 60px;
+    background-color: #fff;
+    box-shadow: none;
+}
+nav.main-navbar .navbar-links li {
+    height: 60px
+}
+nav.main-navbar .navbar-links li a {
+    display: block;
+    height: 100%;
+    font: 400 14px Roboto;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+nav.main-navbar .navbar-links li:hover {
+    background: #e1f5fe
+}
+nav.main-navbar .navbar-links li.active {
+    background: transparent;
+    box-shadow: inset 0 -5px 0 #3949ab
+}
+#block3 .main-slider>img{
+    width:100%;
+    z-index: 0;
+    position: relative;
+}
+#block3 .main-slider{
+    margin-bottom:-6px;
+}
+#block3 p{
+    margin:0;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#block3 ul.left-uni>li>a{
+    color: #fff;
+    line-height: 1.75;
+}
+#block3 ul.left-uni{
+    padding-left: 50px;
+}
+#block3 ul.left-uni li:hover{
+    background-color: #7986cb;
+}
+#block3 ul.right-uni>li>a{
+    color: #fff;
+    line-height: 1.75;
+}
+#block3 ul.right-uni{
+    padding-left: 50px;
+}
+#block3 ul.right-uni li:hover{
+    background-color: #7986cb;
+}
+#block3 .uni{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav.main2-navbar {
+    height: auto;
+    min-height: 40px;
+    background-color: #fff;
+    box-shadow: none;
+}
+nav.main2-navbar .navbar-links li {
+    height: 40px;
+    margin-left: 40px;
+}
+nav.main2-navbar .navbar-links li a {
+    display: block;
+    height: 100%;
+    font: 400 14px Roboto;
+    line-height: 40px
+}
+nav.main2-navbar .navbar-links li:hover {
+    background: #e1f5fe
+}
+nav.main2-navbar .navbar-links li.active {
+    background: transparent;
+    box-shadow: inset 0 -5px 0 #3949ab
+}
+#block4{
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+#block5 .card-panel{
+    min-height: 320px;
+    padding: 0;
+}
+#block5 .news-hover .card-panel:hover{
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.26), 0 4px 10px 0 rgba(0, 0, 0, 0.22);
+}
+#block5 .news-image{
+    display: block;
+}
+#block5 .news-head ul{
+    display: inline-flex;
+}
+#block5 .news-head ul li a{
+    text-transform: uppercase;
+}
+#block5 .news-content p{
+    padding: 10px;
+    margin:0;
+}
+#block5 .news-image .image-caption{
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    background: rgba(0,0,0,.5);
+}
+#block5 .news-image .image-caption p{
+    margin:2px 0;
+}
+#block5 .news-image img{
+    width:100%;
+}
+#block6 .card-panel{
+    min-height: 240px;
+    padding: 0;
+}
+#block6 .ads-head ul{
+    display: inline-flex;
+}
+#block6 .ads-head ul li a{
+    text-transform: uppercase;
+}
+#block6 .ads-head .col{
+    padding: 0;
+}
+#block6 .ads-content p{
+    padding: 10px;
+    margin:0;
+}
+#block6 .ads-content>.col{
+    padding: 0;
+}
+#block6 .ads-content .bb{
+    border-bottom: 1px solid #e4e4e4;
+    padding: 5px 0;
+}
+#block6 .press-head ul{
+    display: inline-flex;
+}
+#block6 .press-head ul li a{
+    text-transform: uppercase;
+}
+#block6 .press-head .col{
+    padding: 0;
+}
+#block6 .press-content p{
+    padding: 10px;
+    margin:0;
+}
+#block6 .press-content>.col{
+    padding: 0;
+}
+#block6 .press-content .bb{
+    border-bottom: 1px solid #e4e4e4;
+    padding: 5px 0;
+}
+#block7 .block-image{
+    position: relative;
+    max-width:419px;
+    height: 137px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+#block7 .block-color{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #5565bd;
+    opacity: 0.5;
+    z-index: 2;
+}
+#block7 .block-image:hover{
+    opacity: 0.88;
+}
+#block7 ul{
+    margin:0;
+}
+#block7 p.block-color{
+    margin:0;
+}
+#block7 .block-desc{
+    position: relative;
+    bottom:100px;
+    left:0;
+    padding:10px;
+    z-index: 2;
+    text-align: center;
+    font-size: 22px;
+}
+#block7 .block-link{
+    position: inherit;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 3;
+}
+#block7 ul#col4 .block-image{
+    width:100%;
+    height: 294px;
+}
+
+/*
+********** Институты**************
+*/
+#block3-inst .breadcrumbs {
+    position: relative;
+    top: 0;
+    background-color: transparent;
+    box-shadow: none;
+    line-height: 48px;
+    height:48px;
+}
+#block3-inst  .breadcrumbs .breadcrumb {
+    font-size: 13px;
+}
+#block3-inst .breadcrumbs .breadcrumb:first-child::before {
+    content: '';
+}
+#block3-inst .breadcrumbs .breadcrumb::before {
+    content: '\F142';
+    display: inline-block;
+    font-family: "Material Design Icons";
+    font-weight: 400;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    font-size: 14px;
+}
+
+#block3-inst ul.left-inst-menu>li>a{
+    color: #fff;
+    line-height: 1.75;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+#block3-inst ul.left-inst-menu{
+    margin-top: 5px;
+    padding-left: 0.75rem;
+}
+#block3-inst ul.left-inst-menu a:hover{
+    background-color: #7986cb;
+}
+#block3-inst p.kaf{
+    color: rgba(255, 255, 255, 0.7);
+    margin:0;
+}
+#block3-inst ul#about{
+    margin-bottom:0;
+    margin-top: 5px;
+    padding: 0;
+}
+#block3-inst .right-inst-slider img{
+    width:100%;
+    z-index: 0;
+    position: relative;
+}
+#block3-inst .right-inst-slider{
+    margin-bottom: -6px;
+}
+
+#block4-inst .collapsible.programs-collapsible .collapsible-header.active {
+    border-left: 4px solid #3949ab;
+}
+#block4-inst .collapsible.programs-collapsible .collapsible-body {
+    padding: 10px;
+}
+#block4-inst .collapsible-header.active::after {
+    transform: rotate(-180deg);
+}
+#block4-inst .collapsible-header::after {
+    content: "\F140";
+    float: right;
+    font-family: "Material Design Icons";
+    font-size: large;
+    transition: 300ms;
+}
+#block4-inst .spec-head p{
+    text-transform: uppercase;
+}
+#block4-inst .card-panel{
+    padding: 0;
+}
+#block4-inst .news-head p{
+    text-transform: uppercase;
+}
+#block4-inst .news-title p{
+    padding: 5px;
+    margin:0;
+    color: #000;
+}
+#block4-inst .news-title{
+    display: block;
+}
+#block4-inst .news-content p{
+    padding: 5px;
+    margin:0;
+}
+#block4-inst .news-faculty p{
+    padding: 5px;
+    margin:0;
+    text-transform: uppercase;
+    text-align: right;
+}
+#block4-inst .news-img img{
+    padding: 5px;
+    margin:0;
+}
+#block4-inst .news{
+    border-bottom: 1px solid #e4e4e4;
+}
+#block4-inst .ads-head p{
+    text-transform: uppercase;
+}
+#block4-inst .ads-title p{
+    padding: 5px;
+    margin:0;
+    color: #000;
+}
+#block4-inst .ads-title{
+    display: block;
+}
+#block4-inst .ads-content p{
+    padding: 5px;
+    margin:0;
+}
+#block4-inst .ads-faculty p{
+    padding: 5px;
+    margin:0;
+    text-transform: uppercase;
+    text-align: right;
+}
+#block4-inst .ads-img img{
+    padding: 5px;
+    margin:0;
+}
+#block4-inst .ads{
+    border-bottom: 1px solid #e4e4e4;
+}
+
+#block4-inst .ads:hover{
+    background-color: #f5f5f5;
+}
+#block4-inst .news:hover{
+    background-color: #f5f5f5;
+}
+
+/*
+********** Об институте**************
+*/
+
+#block3-about-inst .breadcrumbs {
+    position: relative;
+    top: 0;
+    background-color: transparent;
+    box-shadow: none;
+    line-height: 48px;
+    height:48px;
+}
+#block3-about-inst  .breadcrumbs .breadcrumb {
+    font-size: 13px;
+}
+#block3-about-inst .breadcrumbs .breadcrumb:first-child::before {
+    content: '';
+}
+#block3-about-inst .breadcrumbs .breadcrumb::before {
+    content: '\F142';
+    display: inline-block;
+    font-family: "Material Design Icons";
+    font-weight: 400;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    font-size: 14px;
+}
+
+#block3-about-inst ul.left-about-inst-menu>li>a{
+    color: #fff;
+    line-height: 1.75;
+    padding:4px 0.75rem;
+}
+#block3-about-inst ul.left-about-inst-menu{
+    margin-top: 5px;
+}
+#block3-about-inst ul.left-about-inst-menu a:hover{
+    background-color: #7986cb;
+}
+#block3-about-inst p.about-inst{
+    color: rgba(255, 255, 255, 0.7);
+    margin-top:5px;
+    margin-bottom: 0;
+}
+#block3-about-inst ul.left-about-inst-menu li{
+    border-left: 4px solid transparent;
+}
+#block3-about-inst ul.left-about-inst-menu li.active{
+    border-left: 4px solid #fff;
+}
+#block4-about-inst .collapsible.programs-collapsible .collapsible-header.active {
+    border-left: 4px solid #3949ab;
+}
+#block4-about-inst .collapsible.programs-collapsible .collapsible-body {
+    padding: 10px;
+}
+#block4-about-inst .collapsible-header.active::after {
+    transform: rotate(-180deg);
+}
+#block4-about-inst .collapsible-header::after {
+    content: "\F140";
+    float: right;
+    font-family: "Material Design Icons";
+    font-size: large;
+    transition: 300ms;
+}
+#block4-about-inst .spec-head p{
+    text-transform: uppercase;
+}
+#block4-about-inst .image img{
+    width:100%;
+}
